@@ -15,4 +15,4 @@ unit test: `npm test`
 lint test: `npm run lint`
 
 #### UML
-UML will be uploaded soon at next ACP. 
+![lab-05](lab-05-uml.JPG)

@@ -17,7 +17,7 @@ class Model {
    * @returns {count:#,results:[{*}]} | {*}
    */
   get(_id) {
-
+    return this.schema.find({});
   }
 
   /**
@@ -26,7 +26,8 @@ class Model {
    * @returns {*}
    */
   create(record) {
-
+    let newItem = new this.schema(record);
+    return newItem.save();
   }
 
   /**
